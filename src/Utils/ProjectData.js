@@ -1,60 +1,58 @@
-import Project1Image from '../Assets/notion avatar.png';
-import SurakshaImage from '../Assets/suraksha.png';
-import DeployhubImage from '../Assets/Deployhub.png';
-import ChatAppImage from '../Assets/ChatApp.png';
-import VolumeCImage from "../Assets/VolumeC.png";
-
+import ecofinder from "../Assets/ecofinder.png";
+import webengagement from "../Assets/webengagement.jpg";
+import reactai from "../Assets/apply_showCode.gif";
+import hotel from "../Assets/hotel.jpg";
 const projectData = [
   {
     "id": 1,
+    "name": "EcoFinder-E-Waste-Management-and-Awareness-Platform -(SIH-2023)",
+    "description": `• EcoFinder is a full-stack platform that helps users find nearby e-waste disposal centers while promoting eco-awareness through social gamification.
+    • Google map api integration,Locate e-waste centers, earn credits via photo proof, track progress, and engage socially through leaderboards and rewards through government incentives`,
+    "imageURL": ecofinder,
+    "techStack": ["ReactJS", "Express.js", "NodeJS", "MongoDB","AWS S3", "Google Maps API"],
+    "githubLink": "https://github.com/devesh4424/EcoFinder-E-Waste-Management-and-Awareness-Platform",
+    "liveDemoLink": "https://example.com/project2-demo"
+  },
+  {
+    "id": 2,
+    "name": "Web-Engagement-Analytics",
+    "description": `• WebEngage is a MERN-based analytics platform that captures and visualizes real-time user interactions on websites for improved UX and decision-making.
+• Tracks events like clicks and scrolls, provides a custom JS SDK, real-time dashboards, insightful metrics, and secure REST APIs.`,
+    "imageURL": webengagement,
+    "techStack": ["React.js", "Node.js", "Express.js", "MongoDB", "Chart.js", "JavaScript SDK", "JWT Auth"],
+    "githubLink": "https://github.com/devesh4424/WebEngagementSite",
+    "liveDemoLink": "https://example.com/project3-demo"
+  },
+  {
+    "id": 3,
+    "name": "React-code-AI-visualizer",
+    "description": `• React Code Visualizer is an AI-powered tool that generates and previews React components from user prompts using ChatGPT. 
+    • Generates JSX/CSS, shows live previews, supports live editing, and offers an interactive ChatGPT interface for frontend assistance.`,
+    "imageURL":reactai,
+    "techStack": ["React.js", "OpenAI ChatGPT API", "Tailwind CSS", "react-live", "Ace Editor"],
+    "githubLink": "https://github.com/devesh4424/react-code-visualizer",
+    "liveDemoLink": "https://example.com/project3-demo"
+  },
+  {
+    "id": 4,
+    "name": "Hotel Management System",
+    "description": `•Hotel Management System is a full-stack application that streamlines hotel operations like booking, check-in/out, room management, and billing.
+    •Manage reservations, track room availability, handle guest check-ins/outs, generate invoices, and view booking analytics.`,
+    "imageURL": hotel,
+    "techStack": ["PHP","MYSQL", "HTML", "CSS"],
+    "githubLink": "https://github.com/devesh4424/Hotel-Management-System",
+    "liveDemoLink": "https://example.com/project3-demo"
+  },
+  {
+    "id": 5,
     "name": "Polling Application (MERN)",
     "description": `• Creating functionality to vote and store the votes for each option and DB display.
     • The result of the pool is shown in graphical format with the help of React Chart doughnut.`,
     "imageURL": "https://user-images.githubusercontent.com/56782318/174740494-fbe87032-ab63-445b-a385-bf4010a663d9.png",
     "techStack": ["React", "Node.js","ExpressJS", "MongoDB"],
-    "githubLink": "https://github.com/bhavesh-03/Polling-System-MERN-/blob/main/README.md?plain=1",
+    "githubLink": "https://github.com/devesh4424/Polling-System-MERN",
     "liveDemoLink": "https://example.com/project1-demo"
   },
-  {
-    "id": 2,
-    "name": "Suraksha – (SIH 2023)",
-    "description": `• A Rescue Agency to Agency communication Application for resource allocation at the time calamity.
-    • Map functionality, Security, and Alert response are implemented according to problem statement requirements.`,
-    "imageURL": SurakshaImage,
-    "techStack": ["React Native", "Express,js", "NodeJS", "MongoDB", "Google Maps API"],
-    "githubLink": "https://github.com/bhavesh-03/Suraksha-Frontend-SIH-2023",
-    "liveDemoLink": "https://example.com/project2-demo"
-  },
-  {
-    "id": 3,
-    "name": "Deployhub ‐ (Deployment Application)",
-    "description": `• Implemented Docker automation to clone, build, and push app builds to AWS S3, boosting deployment reliability and scalability.
-• Orchestrated reverse proxy configurations to efficiently route subdomains and domains to corresponding S3 bucket static assets, optimizing resource utilization and accessibility.`,
-    "imageURL": DeployhubImage,
-    "techStack": ["ReactJs", "NodeJS", "Redis", "AWS","Dcoker"],
-    "githubLink": "https://github.com/bhavesh-03/Deployhub-Your-Deployment-Companion",
-    "liveDemoLink": "https://example.com/project3-demo"
-  },
-  {
-    "id": 4,
-    "name": "Chat-application-using-C ",
-    "description": `• Created robust server‐side logic to manage multiple client connections concurrently, utilizing POSIX threads for efficient handling. 
-    • Implemented client‐side functionality to establish connections with the server, send/receive messages, and gracefully handle disconnections.`,
-    "imageURL":ChatAppImage,
-    "techStack": ["C Programming Language",
-"POSIX Sockets (Socket Programming)", "POSIX Threads (Multi‐threading)"],
-    "githubLink": "https://github.com/bhavesh-03/Chat-application-using-C",
-    "liveDemoLink": "https://example.com/project3-demo"
-  },
-  {
-    "id": 5,
-    "name": "Volume controller using hand gestures",
-    "description": "Controlling device volume with hand gesture made using Python medipipe and pycaw library which divides hands into a number of points for tracing.",
-    "imageURL": VolumeCImage,
-    "techStack": ["Python Programming Language", "Mediapipe", "NumPy", "Pycaw"],
-    "githubLink": "https://github.com/bhavesh-03/Hand-gesture-for-volume-control",
-    "liveDemoLink": "https://example.com/project3-demo"
-  }
 ]
 
 

@@ -25,6 +25,7 @@ const About = () => {
         </div>
         <p className="text-lg md:text-xl mb-6">
           👨‍🎓 Hi, I'm <span className="font-semibold">Devesh Zinzuwadia</span>, a
+          Knight badge holder on LeetCode with a rating of 1917, and a
           final-year computer science undergrad at Vishwakarma Institute of
           Information Technology, Pune. Passionate about programming, I love
           exploring the latest tech and crafting innovative products. I'm a Full

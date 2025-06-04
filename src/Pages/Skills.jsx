@@ -3,6 +3,8 @@ import { Image, Box } from "@chakra-ui/react";
 import { FaJava } from "react-icons/fa";
 import Navbar from "../Components/NavBar";
 import JavaSVG from "../Assets/SkillsIcon/java.svg";
+import SpringBootSVG from "../Assets/SkillsIcon/spring-boot.svg";
+import TypeScriptSVG from "../Assets/SkillsIcon/typescript.svg";
 import CppSVG from "../Assets/SkillsIcon/c.svg";
 import PythonSVG from "../Assets/SkillsIcon/python.svg";
 import HTMLSVG from "../Assets/SkillsIcon/html.svg";
